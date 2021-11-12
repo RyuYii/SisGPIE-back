@@ -1,7 +1,7 @@
 API = "/api/"
 
 class Routes:
-    index = API
+    index = "/"
     login = API+"login"
     logout = API+"logout"
     protected = API+"protected"

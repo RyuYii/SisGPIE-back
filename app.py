@@ -115,4 +115,5 @@ def my_invalid_token_callback(invalid):
 
 # if __name__ == '__main__':
 # 	# import os
-app.run(host='127.0.0.1',port=9999,debug=True)
+if __name__ == "__main__":
+    app.run(port=4555, debug=False, threaded=True)
